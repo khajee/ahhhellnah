@@ -1,0 +1,4 @@
+interface:
+  display_name: "seo schema generator"
+  short_description: "Focused SEO workflow and deliverables"
+  default_prompt: "Use $seo-schema-generator to complete this SEO task with evidence and practical recommendations."

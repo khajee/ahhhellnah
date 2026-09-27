@@ -1,0 +1,4 @@
+interface:
+  display_name: "seo competitor analyzer"
+  short_description: "Focused SEO workflow and deliverables"
+  default_prompt: "Use $seo-competitor-analyzer to complete this SEO task with evidence and practical recommendations."

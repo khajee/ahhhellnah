@@ -1,0 +1,4 @@
+interface:
+  display_name: "seo technical auditor"
+  short_description: "Focused SEO workflow and deliverables"
+  default_prompt: "Use $seo-technical-auditor to complete this SEO task with evidence and practical recommendations."

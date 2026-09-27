@@ -1,0 +1,4 @@
+interface:
+  display_name: "seo content pruner"
+  short_description: "Focused SEO workflow and deliverables"
+  default_prompt: "Use $seo-content-pruner to complete this SEO task with evidence and practical recommendations."

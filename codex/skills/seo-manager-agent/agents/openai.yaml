@@ -1,0 +1,4 @@
+interface:
+  display_name: "seo manager agent"
+  short_description: "Focused SEO workflow and deliverables"
+  default_prompt: "Use $seo-manager-agent to complete this SEO task with evidence and practical recommendations."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Model Orchestrator"
+  short_description: "Delegate coding work to local models with review and integration"
+  default_prompt: "Use local models for suitable bounded subtasks, then verify and integrate their work."

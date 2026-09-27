@@ -1,0 +1,4 @@
+interface:
+  display_name: "seo eeat builder"
+  short_description: "Focused SEO workflow and deliverables"
+  default_prompt: "Use $seo-eeat-builder to complete this SEO task with evidence and practical recommendations."

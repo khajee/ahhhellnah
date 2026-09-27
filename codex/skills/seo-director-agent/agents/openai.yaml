@@ -1,0 +1,4 @@
+interface:
+  display_name: "seo director agent"
+  short_description: "Focused SEO workflow and deliverables"
+  default_prompt: "Use $seo-director-agent to complete this SEO task with evidence and practical recommendations."
