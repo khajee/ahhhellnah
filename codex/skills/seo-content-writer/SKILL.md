@@ -1,7 +1,7 @@
 ---
 name: seo-content-writer
 description: >-
-  Use this skill when the user asks you to write SEO optimized articles, blog posts, or product/service content. It guides the agent to use the seo-keyword-scraper, cluster keywords by intent, and generate extremely high-quality content saved as separate markdown files.
+  Use this skill when the user asks you to write SEO optimized articles, blog posts, or product/service content. It guides the agent to use user-provided keywords or approved research sources, cluster keywords by intent, and prepare high-quality content as separate Markdown files.
 ---
 
 # SEO Content Writer
@@ -15,12 +15,12 @@ Determine whether the request is for editorial content or a product/service page
 
 ### Step 2: Keyword Research & Clustering
 Once the content type is known:
-1. Use the `seo-keyword-scraper` skill to find relevant keywords for the topic.
+1. Start from a user-provided keyword list or an explicitly approved research source. The proprietary scraper is not included in this public bundle.
 2. **Intent Focus based on type:**
    - **Product/Service:** Focus on Transactional/Commercial intent (finding, buying, and using the product/service).
    - **Blog:** Focus on a mix of Informational and Buyer's Guide intent.
-3. Cluster the extracted keywords based on user intent.
-4. For all intents, generate specific topics/titles that include the main keywords, generating as many topics as needed to cover all aspects comprehensively.
+3. Cluster the available keywords based on user intent.
+4. Generate topics and titles that cover the relevant intent without repeating near-duplicate keyword variants. If keyword data are unavailable, say so; do not invent search volume or difficulty.
 
 ### Step 3: Content Generation Strategy (High Quality & Bulk Output)
 - **CRITICAL:** Do NOT compromise on quality for bulk generation. 

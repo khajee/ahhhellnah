@@ -2,6 +2,13 @@
 
 A collection of reusable SEO skills and agent instructions for Codex and Gemini, designed for practical, evidence-driven workflows with AI.
 
+## Downloadable bundles
+
+- [Codex skills bundle (ZIP)](https://raw.githubusercontent.com/khajee/ahhhellnah/main/downloads/SEO-Suite-Codex-Optimized.zip)
+- [Gemini skills bundle (ZIP)](https://raw.githubusercontent.com/khajee/ahhhellnah/main/downloads/SEO-Suite-Gemini-Optimized.zip)
+
+Both public bundles exclude the proprietary keyword scraper and its standalone skill. The repository keeps the reusable skills and the private keyword engine separate.
+
 ## What this repository contains
 
 This repository packages a modular SEO toolkit. Each skill is self-contained and can be used independently or orchestrated through the SEO manager and director agents.
