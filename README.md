@@ -1,6 +1,6 @@
 # AI SEO Skills & Agent Workflows
 
-A collection of reusable Codex skills and agent instructions for building practical, evidence-driven SEO workflows with AI.
+A collection of reusable SEO skills and agent instructions for Codex and Gemini, designed for practical, evidence-driven workflows with AI.
 
 ## What this repository contains
 
@@ -31,7 +31,7 @@ This repository packages a modular SEO toolkit. Each skill is self-contained and
 
 ## Private keyword discovery engine
 
-The broader workflow also uses a proprietary keyword discovery and autocomplete expansion engine for recursive topic research and JSON/CSV exports. Its implementation is intentionally kept in a separate private repository; this public repository contains only the surrounding, reusable SEO workflows.
+The broader workflow also uses a proprietary keyword discovery and autocomplete expansion engine for recursive topic research and JSON/CSV exports. Its implementation is kept in a separate private repository. This public repository contains reusable SEO workflows for Codex and Gemini, but excludes the engine's source code and standalone Gemini instructions for using it.
 
 ## Design principles
 
@@ -45,15 +45,19 @@ The broader workflow also uses a proprietary keyword discovery and autocomplete 
 
 ```text
 codex/
-├── agents/                 # Shared agent instructions
+├── agents/                 # Shared Codex agent instructions
 └── skills/                 # Reusable Codex skills
-    ├── seo-*/
-    └── local-model-orchestrator/
+
+gemini/
+├── agents/                 # Optional Gemini SEO Director agent
+├── skills/                 # Reusable Gemini skills
+├── README.md               # Gemini package scope and contents
+└── INSTALL.md              # Gemini installation steps
 ```
 
 ## Using the skills
 
-Each skill directory contains a `SKILL.md` with its scope, workflow, constraints, and expected deliverables. Copy the desired skill into your Codex skills directory, or use the manager/director agents to coordinate a larger SEO task.
+Each skill directory contains a `SKILL.md` with its scope, workflow, constraints, and expected deliverables. See `codex/README.md` and `gemini/README.md` for package details; installation steps are in `gemini/INSTALL.md`.
 
 ## Scope note
 
